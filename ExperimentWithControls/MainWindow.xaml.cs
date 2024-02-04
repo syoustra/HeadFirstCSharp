@@ -34,5 +34,10 @@ namespace ExperimentWithControls
         {
             e.Handled = !int.TryParse(e.Text, out int result);
         }
+
+        private void myListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
